@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(255, 243, 205);
+}
+
+.name {
+  color: rgb(31, 113, 125);
+  font-size: 26px;
+  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.bio {
+  color: rgb(14, 20, 130);
+  font-size: 11px;
+  line-height: 4;;
+  font-family:cursive;
+}
+
+.fun-fact-1{
+  color: rgb(141, 91, 12);
+  font-size: 12px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 2;
+}
+
+.fun-fact-2{
+  color: rgb(141, 91, 12);
+  font-size: 12px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 2;
+}
+
+.fun-fact-3{
+  color: rgb(141, 91, 12);
+  font-size: 12px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 2;
+}
+
