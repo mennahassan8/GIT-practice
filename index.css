@@ -4,7 +4,7 @@ body {
 
 .name {
   color: rgb(31, 113, 125);
-  font-size: 26px;
+  font-size: 45px;
   text-align: center;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -12,14 +12,14 @@ body {
 
 .bio {
   color: rgb(14, 20, 130);
-  font-size: 11px;
+  font-size: 23px;
   line-height: 4;;
   font-family:cursive;
 }
 
 .fun-fact-1{
   color: rgb(141, 91, 12);
-  font-size: 12px;
+  font-size: 25px;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-style: italic;
   font-weight: bold;
@@ -28,7 +28,7 @@ body {
 
 .fun-fact-2{
   color: rgb(141, 91, 12);
-  font-size: 12px;
+  font-size: 25px;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-style: italic;
   font-weight: bold;
@@ -37,7 +37,7 @@ body {
 
 .fun-fact-3{
   color: rgb(141, 91, 12);
-  font-size: 12px;
+  font-size: 25px;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-style: italic;
   font-weight: bold;
