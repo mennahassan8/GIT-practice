@@ -8,7 +8,7 @@
   "build": "vite build",
   "preview": "vite preview",
   "predeploy": "npm run build",
-  "deploy": "npx gh-pages -d build"
+  "deploy": "npx svelte-branch -d build"
 
 }
 ,
