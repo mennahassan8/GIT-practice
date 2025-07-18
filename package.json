@@ -5,11 +5,9 @@
   "type": "module",
   "homepage": "https://mennahassan8.github.io/GIT-practice/",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-   "predeploy": "vite build --base=/GIT-practice/",
-   "deploy": "gh-pages -d dist -b gh-pages -t true"
+  "predeploy": "vite build --base=/GIT-practice/",
+  "deploy": "gh-pages -d dist -b gh-pages"
+
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "^3.0.0", 
