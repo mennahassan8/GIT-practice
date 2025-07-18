@@ -5,9 +5,10 @@
   "type": "module",
   "homepage": "https://mennahassan8.github.io/GIT-practice/",
 
- "scripts": {
+"scripts": {
   "predeploy": "vite build",
   "deploy": "gh-pages -d dist -b gh-pages -t true"
+
 },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^5.0.3",
