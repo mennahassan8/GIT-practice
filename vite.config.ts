@@ -1,7 +1,8 @@
-// vite.config.ts
 import { sveltekit } from '@sveltejs/kit/vite';
+import { defineConfig } from 'vite';
 
-export default {
-  base: '/GIT-practice/', 
+/** @type {import('vite').UserConfig} */
+export default defineConfig({
+  base: '/GIT-practice/',
   plugins: [sveltekit()]
-};
+});
