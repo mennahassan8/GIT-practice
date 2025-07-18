@@ -1,13 +1,10 @@
+import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vite';
-import { svelte } from '@sveltejs/vite-plugin-svelte';
 
-
-const repoName = 'GIT-practice';
-
+/** @type {import('vite').UserConfig} */
 export default defineConfig({
-  base: `/${repoName}/`,
-  plugins: [svelte()],
+  base: '/GIT-practice/',
+  plugins: [sveltekit()]
 });
-
 
 
