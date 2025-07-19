@@ -1,16 +1,17 @@
 {
-  "name": "my-svelte-web",
+  "name": "GIT-practice",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://mennahassan8.github.io/GIT-practice/",
+  "homepage": "https://mennahassan8.github.io/GIT-practice",
   "scripts": {
-  "predeploy": "vite build --base=/GIT-practice/",
-  "deploy": "gh-pages -d dist -b gh-pages"
-
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "npm run build && gh-pages -d dist",
+    "preview": "vite preview"
   },
   "devDependencies": {
-    "@sveltejs/adapter-static": "^3.0.0", 
+    "@highcharts/svelte": "^1.1.1",
     "@sveltejs/vite-plugin-svelte": "^5.0.3",
     "gh-pages": "^6.3.0",
     "svelte": "^5.28.1",
